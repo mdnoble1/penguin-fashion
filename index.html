@@ -9,22 +9,23 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 <style>
-.text-bebas-neue {
+.font-bebas-neue {
     font-family: 'Bebas Neue', sans-serif;
 }    
-.text-roboto{
+.font-roboto{
     font-family: 'Roboto', sans-serif;
 }
 </style>
 </head>
 <body>
     <header>
+        <!-- navbar section  -->
         <nav class="flex items-center justify-between mt-10 ml-4 mr-4 lg:ml-32 lg:mr-32">
         <div class="w-56">
             <img src="icons/logo.png" alt="">
         </div>
         <div>
-            <ul class="flex items-center cursor-pointer md:gap-10 lg:gap-10">
+            <ul class="flex items-center cursor-pointer md:gap-10 lg:gap-10 md:font-roboto text-[#3C3C3C]">
                 <li class="invisible md:visible lg:visible">Home </li>
                 <li class="invisible md:visible lg:visible">Product</li>
                 <li class="invisible md:visible lg:visible">About Us</li>
@@ -37,6 +38,19 @@
             </ul>
         </div>
     </nav>
+    <!-- banner section  -->
+    <section class="flex items-center justify-between mt-8 mx-32">
+        <div>
+            <h3 class="font-bebas-neue text-[#363958] text-7xl"><span class="text-[#FABE4C]">Be the Penguins</span><br>of Winter </h3>
+            <p class="font-roboto text=[#3E3E3E] mb-4">Lorem Ipsum is simply dummy text of the printing<br> 
+                and typesetting industry.</p>
+            <button class="flex gap-2 items-center font-roboto text-white w-42.5 h-14 bg-[#A4BC46] p-5 rounded-lg"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+              </svg>
+              BUY NOW</button>
+        </div>
+        <div><img src="images/model.png" alt=""></div>
+    </section>
     </header>
     <main></main>
     <footer></footer>
